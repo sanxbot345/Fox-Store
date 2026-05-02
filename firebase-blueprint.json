@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "transactions/{transactionId}": {
+      "schema": "transaction",
+      "description": "User transactions"
+    }
+  },
+  "entities": {
+    "transaction": {
+      "title": "Transaction",
+      "description": "User transaction history",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "gameId": { "type": "string" },
+        "gameTitle": { "type": "string" },
+        "itemDetail": { "type": "object" },
+        "paymentMethod": { "type": "string" },
+        "amount": { "type": "number" },
+        "formData": { "type": "object" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      },
+      "required": ["userId", "gameId", "amount", "status"]
+    }
+  }
+}
