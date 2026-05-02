@@ -24,7 +24,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-slate-800 aspect-[16/9] md:aspect-[3/1] shadow-lg shadow-cyan-500/10 w-full">
           <video 
-            src="/vinz.mp4" 
+            src="https://download1335.mediafire.com/0toymc74mbpg1u1kEBPDHz1PTupMOyf4T-Tb3brrlepane3qPC5FNcdryW2VzSHt47kAIxCIX6AtUnjkpvXinhVI-wFWMavmicxD9TpM-4iEBWDecvrHXNGDDUqTZWeYXLPrjOhrD2-v-15tJY05p5PMD_qciXnfv3O-0P3H52U9/9ejckxn4yba9ocm/vinz.mp4" 
             autoPlay 
             loop 
             muted 

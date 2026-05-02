@@ -83,7 +83,7 @@ export default function Navbar() {
             <div className="pt-6 pb-4 px-5 flex flex-col items-center">
                <div className="w-full aspect-video rounded-[20px] overflow-hidden bg-black border border-[#222] mb-5 relative drop-shadow-2xl flex items-center justify-center">
                  <video 
-                   src="/amoled (1).mp4"
+                   src="https://download1076.mediafire.com/kf5m2mxzh9zgEwH4Nmjx8cRWNE6BcB4rplGyp_GHBlKFf2WrbPT-0D2iE5woQITZtYra3xyhO5rMJaVSUHrGdtDinHPI_rHmN0ZZRbYb97YRZ_nXzTu2vyVPnb9MZ0UgXB7KMeJLvy1VpzuUaWrXKq0BfmNfx9H9W1UZtrj7Vs8c/27e2r44bfdl7nj6/amoled+%281%29.mp4"
                    autoPlay
                    loop
                    muted
